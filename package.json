@@ -1,0 +1,24 @@
+{
+  "name": "@aragon/apps",
+  "version": "0.1.0",
+  "description": "Aragon DAO Clients",
+  "repository": "https://github.com/aragon/apps",
+  "author": "Aragon Association",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-geocoder": "^5.0.1",
+    "mapbox-gl": "^2.13.0"
+  },
+  "devDependencies": {
+    "@types/mapbox__mapbox-gl-geocoder": "^4.7.3"
+  }
+}
